@@ -14,8 +14,6 @@ Use Plotly.js to build interactive charts for your dashboard.
 
   * Use `otu_labels` as the hovertext for the chart
 
-  ![PIE Chart](Images/pie_chart.png)
-
 * Create a Bubble Chart that uses data from your samples route (`/samples/<sample>`) to display each sample.
 
   * Use `otu_ids` for the x values
@@ -28,8 +26,6 @@ Use Plotly.js to build interactive charts for your dashboard.
 
   * Use `otu_labels` for the text values
 
-  ![Bubble Chart](Images/bubble_chart.png)
-
 * Display the sample metadata from the route `/metadata/<sample>`
 
   * Display each key/value pair from the metadata JSON object somewhere on the page
@@ -37,9 +33,6 @@ Use Plotly.js to build interactive charts for your dashboard.
 * Update all of the plots any time that a new sample is selected.
 
 * You are welcome to create any layout that you would like for your dashboard. An example dashboard page might look something like the following.
-
-![Example Dashboard Page](Images/dashboard_part1.png)
-![Example Dashboard Page](Images/dashboard_part2.png)
 
 ## Step 2 - Heroku
 
@@ -60,8 +53,6 @@ The following task is completely optional and is very advanced.
 * You will need to modify the example gauge code to account for values ranging from 0 - 9.
 
 * Update the chart whenever a new sample is selected
-
-![Weekly Washing Frequency Gauge](Images/gauge.png)
 
 - - -
 
